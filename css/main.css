@@ -130,6 +130,14 @@ p {
   line-height: 1.285;
 }
  
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 address {
  font-style: normal;
 }
@@ -229,6 +237,11 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/jake-melara-30679-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -239,6 +252,14 @@ footer .copyright {
   font-size: 2.25em;
   font-weight: 500;
   line-height: 1.2;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Aside */
@@ -280,6 +301,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url(../img/rawpixel-800820-unsplash1.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -505,7 +529,7 @@ header figure {
 }
 
 header nav {
-  width: 20%;
+  width: 31%;
 }
 
 header nav ul {
@@ -524,6 +548,14 @@ header nav ul {
   margin: 0;
 }
 
+header figure {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 /* Aside */
 aside .content-wrapper {
     margin: 50px 0;
@@ -534,7 +566,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {        
-    width: 40%;      
+    width: 40%;        
     margin: 0;
 }
 
@@ -652,6 +684,18 @@ footer .copyright {
 
 header {
   padding: 15px 0;
+}
+
+header figure {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+  width: 25%;
 }
 
 .content-wrapper {
